@@ -2,9 +2,9 @@
 
 **An advanced AI-powered restructuring risk analysis platform for PE-owned private companies**, combining cutting-edge Large Language Models (LLMs) with Bloomberg API integration to provide institutional-grade risk assessment, default timeline prediction, and investment recommendations.
 
-## 🚀 Core Capabilities
+ Core Capabilities
 
-### **🧠 Advanced AI/LLM Integration**
+ Advanced AI/LLM Integration**
 - **Multi-Model LLM Support**: Gemini Pro/Flash, OpenAI GPT-4, Anthropic Claude 3.5 Sonnet
 - **Contextual Understanding**: No keyword matching - true AI comprehension of financial context
 - **Partial Point Scoring**: Precise AI-driven scores (e.g., 7.3/20) with detailed reasoning
@@ -13,7 +13,7 @@
 - **Predictive Modeling**: AI-powered default timeline forecasting
 - **Investment Recommendations**: Intelligent action suggestions (SHORT FULL, SHORT HALF, AVOID, etc.)
 
-### **📊 Comprehensive Risk Assessment**
+Comprehensive Risk Assessment**
 - **10-Criteria AI-Powered Scoring**: Advanced risk assessment with nuanced partial point allocation
 - **Healthcare Sector Bonuses**: Specialized scoring for healthcare companies (up to 110.5 points)
 - **Bloomberg API Integration**: Premium data quality for private companies (33,000+ PE firms database)
@@ -22,7 +22,7 @@
 - **Peer Analysis**: Company risk comparison against PE-owned peers
 - **Industry Default Statistics**: Sector-wide default trends and patterns
 
-## 📊 System Components
+System Components
 
 ### 1. Enhanced LLM Analyzer (`enhanced_llm_analyzer.py`)
 - **Multi-Model AI**: Supports Gemini Pro/Flash, OpenAI GPT-4, Anthropic Claude 3.5
@@ -89,7 +89,7 @@
 - **Multi-State Modeling**: Tracks companies through risk states
 - **Probabilistic Forecasting**: Monte Carlo-style default predictions
 
-## 🛠️ Installation
+ Installation
 
 1. **Install dependencies**:
    ```bash
@@ -191,7 +191,7 @@ GET /api/pe-discovery?sector=Technology&min_leverage=5.0
 GET /api/dashboard-data
 ```
 
-## 🔍 What Gets Tracked
+What Gets Tracked
 
 ### 10 RDS Criteria (AI-Powered Scoring)
 1. **Leverage Risk** (Net Debt / EBITDA) → 20%
@@ -206,11 +206,11 @@ GET /api/dashboard-data
 10. **Sponsor Profile** (aggressive recaps, fast exits) → 5%
 
 ### Advanced Features (NEW)
-- **🏢 LBO Event Detection**: AI-powered analysis of SEC filings to identify LBO event dates
-- **💰 LP Report Analysis**: Automated analysis of pension fund and endowment reports for carried interest detection
-- **📊 FINRA TRACE Integration**: Real bond yield data for accurate synthetic CDS spread calculation
-- **🎯 Post-LBO Only Scoring**: RDS analysis only performed after LBO event date is identified
-- **🔍 Context-Aware AI**: Semantic understanding beyond keyword matching
+- ** LBO Event Detection**: AI-powered analysis of SEC filings to identify LBO event dates
+- ** LP Report Analysis**: Automated analysis of pension fund and endowment reports for carried interest detection
+- ** FINRA TRACE Integration**: Real bond yield data for accurate synthetic CDS spread calculation
+- ** Post-LBO Only Scoring**: RDS analysis only performed after LBO event date is identified
+- ** Context-Aware AI**: Semantic understanding beyond keyword matching
 
 ### SEC Filing Analysis (Non-Criteria)
 - **10-K Filings**: Annual reports with AI distress scoring
@@ -221,19 +221,19 @@ GET /api/dashboard-data
 - **Filing Statistics**: 90-day analysis with distress metrics
 
 ### Advanced LBO Detection & LP Analysis (NEW)
-- **🏢 LBO Event Identification**: AI analyzes SEC filings to detect LBO events without keyword matching
-- **📅 LBO Event Dating**: Precise identification of when LBO occurred for timeline analysis
-- **💰 LP Report Scraping**: Automated collection of pension fund and endowment distribution reports
-- **🎯 Carried Interest Detection**: Analysis of LP distributions vs. company FCF to identify carried interest
-- **📊 Distribution Alignment**: Cross-referencing LP distributions with company recap events
-- **🔍 FCF Support Analysis**: Determining if distributions are supported by company cash flow
+- ** LBO Event Identification**: AI analyzes SEC filings to detect LBO events without keyword matching
+- ** LBO Event Dating**: Precise identification of when LBO occurred for timeline analysis
+- ** LP Report Scraping**: Automated collection of pension fund and endowment distribution reports
+- ** Carried Interest Detection**: Analysis of LP distributions vs. company FCF to identify carried interest
+- ** Distribution Alignment**: Cross-referencing LP distributions with company recap events
+- ** FCF Support Analysis**: Determining if distributions are supported by company cash flow
 
 ### Enhanced CDS Calculation (NEW)
-- **📊 FINRA TRACE Integration**: Real bond yield data from FINRA TRACE system
-- **🎯 Synthetic CDS Calculation**: (Bond Yield - Treasury Yield) × 10,000 for accurate CDS proxy
-- **📈 Dynamic Spread Calculation**: Real-time calculation based on actual bond market data
-- **🔍 Maturity Matching**: 3-7 year bonds used for 5Y CDS proxy calculation
-- **📊 Bloomberg Fallback**: Primary Bloomberg CDS data with FINRA TRACE as fallback
+- ** FINRA TRACE Integration**: Real bond yield data from FINRA TRACE system
+- ** Synthetic CDS Calculation**: (Bond Yield - Treasury Yield) × 10,000 for accurate CDS proxy
+- ** Dynamic Spread Calculation**: Real-time calculation based on actual bond market data
+- ** Maturity Matching**: 3-7 year bonds used for 5Y CDS proxy calculation
+- ** Bloomberg Fallback**: Primary Bloomberg CDS data with FINRA TRACE as fallback
 
 ### Peer Analysis & Industry Statistics (Bloomberg API)
 - **Peer Company Analysis**: Comparison with similar PE-owned private companies
@@ -334,14 +334,14 @@ The system uses **AI-powered timeline calculation** to predict when a company mi
 - **Low**: Limited data available
 - **Very Low**: Minimal data for analysis
 
-## 📊 Output Files
+##  Output Files
 
 - `RDS_MONITORED_COMPANIES.json`: Monitored company data with analysis
 - `company_monitor.db`: SQLite database for company tracking
 - `sec_filings.db`: SEC filing analysis database
 - `enhanced_dashboard.html`: Web dashboard interface
 
-## 🚨 Alert System
+##  Alert System
 
 The system automatically creates alerts for:
 - **High-impact SEC filings** (distress score ≥ 70)
@@ -350,7 +350,7 @@ The system automatically creates alerts for:
 - **Default timeline adjustments**
 - **Bloomberg news and market sentiment changes**
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 - `BLOOMBERG_API_KEY`: Bloomberg API key (required for full functionality)
@@ -361,7 +361,7 @@ The system automatically creates alerts for:
 - **SEC EDGAR API**: SEC filing data and analysis
 - **Zero Fallbacks**: System requires Bloomberg API for comprehensive analysis
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 1. **Bloomberg API Key**: Required for full functionality - system will run with limited features
@@ -373,7 +373,7 @@ The system automatically creates alerts for:
 - `main.py`: RDS analysis and company processing
 
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Set Bloomberg API Key**: Required for full private company analysis
 2. **Start Dashboard**: Run `python3 main.py` to launch the web interface
