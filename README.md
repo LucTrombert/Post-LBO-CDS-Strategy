@@ -372,32 +372,6 @@ The system automatically creates alerts for:
 - `dashboard_server.py`: Web server and API activities
 - `main.py`: RDS analysis and company processing
 
-## 📈 Example Output
-
-```
-================================================================================
-PE-OWNED PRIVATE COMPANY RDS ANALYSIS
-================================================================================
-Company                    Ticker  RDS_Score  Risk_Level  Default_Timeline
-Private Equity Corp A      PECA          85  Very High   3 months
-LBO Holdings Inc          LBOI          78  High        6 months
-Restructuring Corp B      RCB           72  High        8 months
-
-================================================================================
-SEC FILING ANALYSIS
-================================================================================
-Company: Private Equity Corp A (PECA)
-- Recent 10-K: Distress Score 65/100
-- Key Concerns: Declining EBITDA, Increasing debt levels
-- Filing Count: 3 SEC filings in last 90 days
-
-Default Timeline: 3 months (Critical Risk)
-Confidence: Very High
-Adjustments: 
-- Critical leverage (>15x D/E) - AI: Immediate risk
-- PE ownership - AI: Exit pressure & fund timeline
-- Retail sector - AI: Secular decline risk
-```
 
 ## 🎯 Next Steps
 
