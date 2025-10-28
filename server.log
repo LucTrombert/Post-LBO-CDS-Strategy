@@ -1,0 +1,29 @@
+/Users/luctrombert/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-09-07 22:28:29,283 - WARNING - BLOOMBERG API KEY NOT FOUND - SYSTEM WILL START WITH LIMITED FUNCTIONALITY
+2025-09-07 22:28:29,283 - INFO - Dashboard will be accessible but Bloomberg API features will be disabled
+2025-09-07 22:28:29,283 - INFO - Set BLOOMBERG_API_KEY environment variable for full functionality
+2025-09-07 22:28:29,283 - INFO - Available LLM models: ['gemini', 'openai', 'anthropic']
+Starting Enhanced RDS Dashboard Server...
+Dashboard will be available at: http://localhost:8080
+API endpoints available at: http://localhost:8080/api/
+RDS Analysis System initialized successfully
+Limited Mode: Bloomberg API disabled
+AI Analysis: Ready
+Dashboard: Starting...
+ * Serving Flask app 'dashboard_server'
+ * Debug mode: on
+2025-09-07 22:28:29,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.161:8080
+2025-09-07 22:28:29,304 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 22:28:29,305 - INFO -  * Restarting with stat
+/Users/luctrombert/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-09-07 22:28:29,559 - WARNING - BLOOMBERG API KEY NOT FOUND - SYSTEM WILL START WITH LIMITED FUNCTIONALITY
+2025-09-07 22:28:29,559 - INFO - Dashboard will be accessible but Bloomberg API features will be disabled
+2025-09-07 22:28:29,559 - INFO - Set BLOOMBERG_API_KEY environment variable for full functionality
+2025-09-07 22:28:29,559 - INFO - Available LLM models: ['gemini', 'openai', 'anthropic']
+2025-09-07 22:28:29,573 - WARNING -  * Debugger is active!
+2025-09-07 22:28:29,577 - INFO -  * Debugger PIN: 366-058-780

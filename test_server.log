@@ -1,0 +1,17 @@
+/Users/luctrombert/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-09-07 22:25:23,920 - WARNING - BLOOMBERG API KEY NOT FOUND - SYSTEM WILL START WITH LIMITED FUNCTIONALITY
+2025-09-07 22:25:23,920 - INFO - Dashboard will be accessible but Bloomberg API features will be disabled
+2025-09-07 22:25:23,920 - INFO - Set BLOOMBERG_API_KEY environment variable for full functionality
+2025-09-07 22:25:23,920 - INFO - Available LLM models: ['gemini', 'openai', 'anthropic']
+Starting Enhanced RDS Dashboard Server...
+Dashboard will be available at: http://localhost:8080
+API endpoints available at: http://localhost:8080/api/
+RDS Analysis System initialized successfully
+Limited Mode: Bloomberg API disabled
+AI Analysis: Ready
+Dashboard: Starting...
+ * Serving Flask app 'dashboard_server'
+ * Debug mode: on
+Address already in use
+Port 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.
